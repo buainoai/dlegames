@@ -1,0 +1,58 @@
+name: Submit a game
+description: Suggest an official playable game for consideration in DLE Games.
+title: "[Game] "
+labels: []
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Game name
+      placeholder: Example Daily Puzzle
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official playable URL
+      placeholder: https://example.com/play
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: How does the game work?
+      description: Explain what the player does, the win condition, and the key mechanic.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best-fit category
+      options:
+        - Word
+        - Geography
+        - Logic
+        - Music
+        - Movies
+        - Sports
+        - Trivia
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: daily
+    attributes:
+      label: Does it offer a new challenge every day?
+      options:
+        - "Yes"
+        - "No"
+        - "Not sure"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that the supplied URL leads to the real game.
+          required: true
