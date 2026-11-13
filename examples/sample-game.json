@@ -1,0 +1,9 @@
+{
+  "slug": "example-daily-puzzle",
+  "name": "Example Daily Puzzle",
+  "url": "https://example.com/play",
+  "category": "logic",
+  "summary": "A fictional daily logic puzzle entry showing the community submission format; this is not a real game listing.",
+  "daily": true,
+  "tags": ["daily", "logic", "browser"]
+}
