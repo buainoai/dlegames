@@ -37,12 +37,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the editorial criteria and [docs/game
 
 This is the **public project and community hub**, not the production codebase of dlegames.org. Repository files contain docs, examples, and community issue templates. They do not expose private infrastructure, analytics, paid services, or production credentials.
 
-## Other projects from BUAI
-
-- [Daily Puzzle Kit](https://github.com/buainoai/daily-puzzle-kit) — deterministic puzzle utilities for game creators
-- [RNGdle](https://rngdle.net/) — a daily randomness game
-- [BUAI](https://buai.dev/) — independent AI and browser products
-
 ## Contact
 
 Visit [dlegames.org/contact-us](https://dlegames.org/contact-us) for current contact information.
